@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#e25555" />
+  <title>Scanner – Gutschein‑App</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="scan-body">
+  <header class="topbar">
+    <a href="index.html" class="topbar-back" aria-label="Zurück zur Startseite">
+      <svg aria-hidden="true" width="22" height="22"><use href="assets/icons.svg#back"></use></svg>
+      Zurück
+    </a>
+    <h1 class="topbar-title">
+      <svg aria-hidden="true" width="22" height="22"><use href="assets/icons.svg#camera"></use></svg>
+      Code scannen
+    </h1>
+  </header>
+
+  <main class="scan-container" id="scan-main">
+    <div class="video-wrap">
+      <video id="video" playsinline muted preload="metadata" aria-label="Kamera‑Vorschau"></video>
+      <div class="scan-frame" aria-hidden="true"></div>
+    </div>
+
+    <div class="scan-controls">
+      <button id="btn-start" class="btn btn-primary" type="button" aria-label="Kamera starten">
+        <svg aria-hidden="true" width="20" height="20"><use href="assets/icons.svg#camera"></use></svg>
+        Kamera starten
+      </button>
+
+      <div class="or-divider" role="separator"><span>oder</span></div>
+
+      <label for="file" class="btn btn-secondary" aria-label="Bilddatei mit QR auswählen (Fallback)">
+        <input id="file" type="file" accept="image/*" capture="environment" hidden />
+        Aus Foto/Datei lesen
+      </label>
+    </div>
+
+    <p id="scan-status" class="muted center small" role="status">Bereit. Für Kamerazugriff ist <strong>HTTPS</strong> erforderlich.</p>
+  </main>
+
+  <!-- ZXing UMD (einzige externe Abhängigkeit) -->
+  <script src="https://cdn.jsdelivr.net/npm/@zxing/browser@0.1.5/umd/index.min.js" integrity="sha384-3qH1u5n2Rk8fS6aM2B0H9sIt1i3M3kq6O8Z1w2xg1jCwqkq3p8dS4+OaXf4mQv0v" crossorigin="anonymous"></script>
+  <script src="js/scanner.js"></script>
+</body>
+</html>

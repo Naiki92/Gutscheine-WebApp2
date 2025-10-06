@@ -1,0 +1,26 @@
+[
+    { "code": "A2F9K", "category": "ROMANTIK", "title": "Kerzenlicht‑Dinner zuhause", "description": "Ich koche dein Wunschgericht – ganz in Ruhe und mit Kerzen.", "media_url": "" },
+    { "code": "B7L3Q", "category": "ROMANTIK", "title": "Handgeschriebener Liebesbrief", "description": "Ein Brief nur für dich – mit allem, was ich dir sagen möchte.", "media_url": "" },
+    { "code": "C9H5M", "category": "ROMANTIK", "title": "Sonnenaufgang‑Date", "description": "Früh raus, warme Decke und gemeinsam den Tag begrüßen.", "media_url": "" },
+    { "code": "D4P8Z", "category": "ROMANTIK", "title": "Foto‑Spaziergang", "description": "Wir knipsen Erinnerungen im Lieblingsviertel.", "media_url": "" },
+    { "code": "E1R6T", "category": "ROMANTIK", "title": "Massage mit Aroma‑Ölen", "description": "30 Minuten Entspannung pur – nur für dich.", "media_url": "" },
+  
+    { "code": "F2G7N", "category": "CHILL", "title": "Pyjama‑Sonntag", "description": "Ohne Termine, nur Couch, Snacks und wir.", "media_url": "" },
+    { "code": "G5K9X", "category": "CHILL", "title": "Gamernacht zu zweit", "description": "Koop‑Spiele bis wir lachen müssen.", "media_url": "" },
+    { "code": "H1M3V", "category": "CHILL", "title": "Badewannen‑Wellness", "description": "Schaum, Musik, ruhige Zeit.", "media_url": "" },
+    { "code": "J8Q2W", "category": "CHILL", "title": "Gemeinsam lesen", "description": "Heißer Tee und Kapitel, die wir uns vorlesen.", "media_url": "" },
+    { "code": "K6S4Y", "category": "CHILL", "title": "Mittagsschlaf‑Gutschein", "description": "Ein offizielles Nickerchen – ohne schlechtes Gewissen.", "media_url": "" },
+  
+    { "code": "L3D8B", "category": "GENUSS", "title": "Waffel‑Backen", "description": "Frisch gebacken mit Toppings nach Wahl.", "media_url": "" },
+    { "code": "M9F2C", "category": "GENUSS", "title": "Tapas‑Abend", "description": "Kleine Leckereien, große Vielfalt.", "media_url": "" },
+    { "code": "N7H5J", "category": "GENUSS", "title": "Eis‑Verkostung", "description": "Drei Sorten probieren – Gewinner küre ich.", "media_url": "" },
+    { "code": "P1K6L", "category": "GENUSS", "title": "Pasta‑Manufaktur", "description": "Frische Pasta selbst gemacht.", "media_url": "" },
+    { "code": "Q4M8N", "category": "GENUSS", "title": "Pancake‑Morgen", "description": "Locker, fluffig, ahornsirupig.", "media_url": "" },
+  
+    { "code": "R2T7P", "category": "FUN", "title": "Bowling‑Abend", "description": "Strike oder Lachkrampf – Hauptsache Spaß.", "media_url": "" },
+    { "code": "S5V9Q", "category": "FUN", "title": "Escape‑Room zuhause", "description": "Rätselbox + Timer – wir schaffen das!", "media_url": "" },
+    { "code": "T1X3R", "category": "FUN", "title": "Karaoke‑Session", "description": "Unsere Lieblingshits – ganz privat.", "media_url": "" },
+    { "code": "V8Z2S", "category": "FUN", "title": "Spaziergang mit Fotomission", "description": "5 Motive finden – Challenge accepted.", "media_url": "" },
+    { "code": "W6B4T", "category": "FUN", "title": "Brettspiel‑Turnier", "description": "Best of drei – Gewinner krönt der andere.", "media_url": "" }
+  ]
+  
